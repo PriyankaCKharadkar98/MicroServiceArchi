@@ -1,13 +1,13 @@
 version: 2
 jobs:
   one:
-  docker:
+   docker:
     - image: cimg/ruby:2.6.8 
       auth:
        username: PriyankaCkharadkar123
        password: Technical98@
   steps:
-     -checkout
+     - checkout
      - run: echo "A first hello" 
      - run: sleep 25
   two: 
