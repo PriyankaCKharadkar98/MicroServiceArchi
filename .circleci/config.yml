@@ -21,8 +21,8 @@ jobs:
   - run: echo "A more Familier hi" 
   - run: sleep 15
 workflows:
-versions:2
-one_and_two.
-jobs:
- -one
- -two
+ version: 2
+ one_and_two:
+  jobs:
+   -one
+   -two
